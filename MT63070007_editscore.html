@@ -21,13 +21,14 @@
 }
 body {
     background: linear-gradient(to bottom right, rgba(252,70,107,1) 0% , rgba(63,94,251,1) 100%);
-  /* margin:2em; */
+  margin:2em;
   font-family:'Kanit', sans-serif;
-  padding: 20px;
+  padding: 2em;
   background-size: 200% 200%;
   user-select: none;
   animation: gradient 15s ease infinite;
-  overflow: hidden;
+  /* overflow: hidden; */
+  min-height: 100vh;
 }
 
 [type=radio] {
@@ -43,13 +44,13 @@ body {
 
 #slider label {
   margin: auto;
-  width: 30%;
-  height: 80%;
+  width: 32%;
+  height: 82%;
   border-radius: 10%;
   position: absolute;
   left: 0; right: 0;
   cursor: pointer;
-  padding: 2em;
+  padding: 2.2em;
   transition: transform 0.4s ease;
   /* text-align:center; */
   background: #1e2021
@@ -119,11 +120,13 @@ body {
 #slide7 { background: #1e2021 }
 #slide8 { background: #1e2021 }
 
-
+/* .namecard{
+  transform: scale(0.7);
+} */
 
 h1{
       font-family:'Kanit', sans-serif;
-      font-size: 2em;
+      font-size: 2rem;
       text-align: center;
       /* position: relative; */
       padding-top:-15%;
@@ -133,8 +136,8 @@ h1{
        p{
       margin-top:2%;
       font-family:'Kanit', sans-serif;
-      font-size: 1.5em;
-      color:#3e50bc;
+      font-size: 1.2rem;
+      color:#ffffff;
       text-align: center;
       /* position: relative; */
       }
@@ -150,19 +153,21 @@ h1{
 	}
       
       .img-icon{
-        width: 80px;
-        height: 80px;
+        width: 20%;
+        /* height: 80px; */
         margin: 5px;
         border-radius:50%;
         transition: 0.25s;
+        position:relative;
       }
 
       .img-iconfb{
-        width: 80px;
-        height: 80px;
+        width: 20%;
+        /* height: 80px; */
         margin: 5px;
         border-radius:50%;
         transition: 0.25s;
+        position:relative;
       }
 
       .img-icon:hover{
@@ -229,8 +234,9 @@ h1{
         <input type="radio" name="slider" id="s7">
         <input type="radio" name="slider" id="s8" >
 
-
+      
         <label for="s2" id="slide2">
+          
             <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="enable-background:new -580 439 577.9 194;"
         xml:space="preserve">  
         <defs>
@@ -248,18 +254,19 @@ h1{
           </defs>
             <circle cx="50" cy="47.5" r="40" stroke="url(#border)" stroke-width="3" fill="url(#Fench)"/>
           </svg>
-            <h1 class="title">
-            Jirayu Torranathiti
+          <h1 class="title" >
+            Fench , Chonburi
             </h1>
-            <p>
+            <!-- <p >
               Fench , Chonburi
-            </p>
+            </p> -->
             <a href="https://web.facebook.com/vazilyr" target="_blank">
               <img src="https://cdn.discordapp.com/attachments/798210236095004682/798825223796555786/1200px-Facebook_Logo_28201929.png" class="img-iconfb">
             </a>
             <a href="https://www.instagram.com/_j1ra_/" target="_blank">
               <img src="https://cdn.discordapp.com/attachments/798210236095004682/798855708408807494/1024px-Instagram_icon.png" class="img-icon">
             </a>
+
         </label>
 
         <label for="s3" id="slide3">
@@ -280,12 +287,12 @@ h1{
               </defs>
                 <circle cx="50" cy="47.5" r="40" stroke="url(#border)" stroke-width="3" fill="url(#miew)"/>
               </svg>
-            <h1 class="title">
-        Kalyarak Choobpha
+            <h1 class="title" >
+              Miew , BKK
       </h1>
-      <p>
+      <!-- <p >
         Miew , BKK
-      </p>
+      </p> -->
       <a href="https://www.facebook.com/mwxk.225/" target="_blank">
         <img src="https://cdn.discordapp.com/attachments/798210236095004682/798825223796555786/1200px-	Facebook_Logo_28201929.png" class="img-iconfb">
       </a>
@@ -314,11 +321,11 @@ h1{
               <circle cx="50" cy="47.5" r="40" stroke="url(#border)" stroke-width="3" fill="url(#looktarn)"/>
             </svg>
             <h1 class="title">
-        Jutamas Chanathitikul
+              Tal , BKK
             </h1>
-      <p>
+      <!-- <p>
         Tal , BKK
-      </p>
+      </p> -->
       <a href="https://www.facebook.com/sodera.miliko/" target="_blank">
         <img src="https://cdn.discordapp.com/attachments/798210236095004682/798825223796555786/1200px-	Facebook_Logo_28201929.png" class="img-iconfb">
       </a>
@@ -347,11 +354,11 @@ h1{
               <circle cx="50" cy="47.5" r="40" stroke="url(#border)" stroke-width="3" fill="url(#Jen)"/>
             </svg>
             <h1 class="title">
-                 Kotchakorn Kajonchai
-            </h1>
-            <p>
               Jen , Chonburi
-            </p>
+            </h1>
+            <!-- <p>
+              Jen , Chonburi
+            </p> -->
             <a href="https://www.facebook.com/jen.ol.37/" target="_blank">
               <img src="https://cdn.discordapp.com/attachments/798210236095004682/798825223796555786/1200px-	Facebook_Logo_28201929.png" class="img-iconfb">
             </a>
@@ -381,11 +388,11 @@ h1{
                 <circle cx="50" cy="47.5" r="40" stroke="url(#border)" stroke-width="3" fill="url(#Nest)"/>
               </svg>
             <h1 class="title">
-                 Chanisara Watcharaponkul
-            </h1>
-            <p>
               Nest , Chonburi
-            </p>
+            </h1>
+            <!-- <p>
+              Nest , Chonburi
+            </p> -->
             <a href="https://web.facebook.com/chanissara.watcharaponkul" target="_blank">
               <img src="https://cdn.discordapp.com/attachments/798210236095004682/798825223796555786/1200px-	Facebook_Logo_28201929.png" class="img-iconfb">
             </a>
@@ -413,12 +420,12 @@ h1{
               </defs>
                 <circle cx="50" cy="47.5" r="40" stroke="url(#border)" stroke-width="3" fill="url(#Pae)"/>
               </svg>
-            <h1 class="title">
-                 Chanikarn Kamwong 
+              <h1 class="title" >
+                Pae , Chonburi
             </h1>
-            <p>
+            <!-- <p>
               Pae , Chonburi
-            </p>
+            </p> -->
             <a href="https://www.facebook.com/nostale.momo/" target="_blank">
               <img src="https://cdn.discordapp.com/attachments/798210236095004682/798825223796555786/1200px-	Facebook_Logo_28201929.png" class="img-iconfb">
             </a>
@@ -447,11 +454,11 @@ h1{
                 <circle cx="50" cy="47.5" r="40" stroke="url(#border)" stroke-width="3" fill="url(#Parn)"/>
               </svg>
             <h1 class="title">
-       	Chanika Preechaphonlakul
-      </h1>
-      <p>
+              Parn , NKNY
+      </h1 >
+      <!-- <p >
         Parn , NKNY
-      </p>
+      </p> -->
       <a href="https://www.facebook.com/chanika.preechapolakul.3" target="_blank">
         <img src="https://cdn.discordapp.com/attachments/798210236095004682/798825223796555786/1200px-	Facebook_Logo_28201929.png" class="img-iconfb">
       </a>
@@ -459,6 +466,7 @@ h1{
         <img src="https://cdn.discordapp.com/attachments/798210236095004682/798855708408807494/1024px-Instagram_icon.png" class="img-icon">
       </a>
         </label>
+      
       </section>
 </body>
 
